@@ -4,39 +4,45 @@
 Start with a simple question? What is equal?
 Simple answer:When two object are same are equal relation to each other.
 Now how do you know what  object is what?The answer is what relation it has with other object or function.There is no other way.
+ex:How do I know if it is positive charge or not,check with other positive charge how it behaves.
 
-How do I know if it is positive charge or not,check with other positive charge how it behaves.
 Name our world **world_A**
 
 Imagine a world **world_B**
+
 world_B where there are three type of charge,
 1. positive
 2. negative
 3. motative
 
 The interaction with positive and negative is same as our world(world_A).The interaction with motative is:
-positive<=>motative = attraction
-negative<=>motative = repulsion
-motative<=>motative = attraction
+1. positive<=>motative = attraction
+2. negative<=>motative = repulsion
+3. motative<=>motative = attraction
 
 **TODO: I am curios what are the relation with motative it need, to distinguish it from postive,negative.Let's say there are a lot of unknown charges there.Can I find motative from them.How the relation between should be to detect a motative without knowing what the other the other charge are.**
 
 
-First thing what is world?A world is a set of objects which have different relation between them,those relation can be axiom,functions,operator etc.Let's say $A$ a world set and function $relation(a,b)$ which returns true if $a$ and $b$ has direct relation with each other like f(a)=b and f(b)=a,or a function f(a,b) exist for f a function in the world $A$.
+First thing what is world?A world is a set of objects which have different relation between them,those relation can be axiom,functions,operator etc.
+>Might be wrong:All object in a world has relation with other object directely or indirectely. In a mathematical way to say it:$A~world~set~A~and~B\subset~A~then~\exist x \in B \exist y \in A/B~x~has~relation~with~y.$
+>
+>**TODO:Prove that,A graph A is connected,then any subset B there exist a node that has edge with a node in subset A/B**
+.Let's say $A$ a world set and function $relation(a,b)$ which returns true if $a$ and $b$ has direct relation with each other like f(a)=b and f(b)=a,or a function f(a,b) exist for f a function in the world $A$.
 
 1. For all non-empty subset B of A there exist x in B,there exist y in A/B such that there exist relationship between A and B.
 
-**TODO: I need to define what it means to have relation.Do I need both f(a)=b and f(b)=a or anyone.
-Like our world has many object.We know they exist because they interact with the known particle we know.
-We know the known particle because they directely or indirectley interect with the particle we are created from.
-Now let's say you want to find new particle outside in the standard model.
-To detect new particle you need to test the unknown particle(or check the relation between them) with the known particle.
-If the relation between them don't match anything with the known one,You discovered a new one.
-A question is "Is there a element in our universe that don't interect with our current elements of standard model?"
-There could be.
-If there is,would that be included in our world set.The answer should be "No."It should be because maybe that particle don't have any interaction with our world.But that particle might got affected by our presence.Like that particle might change it's state if a positive charge get close to it.But the positive charge,that remains unaffected.
-Maybe there is a bigger world than our own world. Those extra particle don't have any effect own us,but our existance do effect them in lot of ways.So,Will the bigger world will make us part of that world or not?We do effect them but they don't effect us in any way.I think we should.Though in our world,there isn't any smaller world as we know it.
-Because all partcle interact with each other one way or other using force.Bacause of newton's 3rd law two way interaction is a must.**
+>TODO: I need to define what it means to have relation. Do I need both f(a)=b and f(b)=a or anyone.
+>Like our world has many object.We know they exist because they interact with the known particle we know.
+>We know the known particle because they directely or indirectley interect with the particle we are created from.
+>Now let's say you want to find new particle outside in the standard model.
+>To detect new particle you need to test the unknown particle(or check the relation between them) with the known particle.
+>If the relation between them don't match anything with the known one,You discovered a new one.
+>A question is "Is there a element in our universe that don't interect with our current elements of standard model?"
+>There could be.
+>If there is,would that be included in our world set.The answer should be "No."It should be because maybe that particle don't have any interaction with our world.But that particle might got affected by our presence.Like that particle might change it's state if a positive charge get close to it.But the positive charge,that remains unaffected.
+>Maybe there is a bigger world than our own world. Those extra particle don't have any effect own us,but our existance do effect them in lot of ways.So,Will the bigger world will make us part of that world or not?We do effect them but they don't effect us in any way.I think we should.Though in our world,there isn't any smaller world as we know it.
+
+**Let's name the **
 
 So what I wanna say equivalance in one world doesn't have to be equivalance in other world.Like in our world suppose a charge **A** that
 1. Repel a negative charge.
@@ -47,12 +53,12 @@ As you check what a object is by making equivalent comparasion witih other objec
 It could be {..-2,2,5...}.In real numberline it could be a lot more.
 
 ## Things we learned:
-1. How to check if two wrold are equivalent.
+1. How to check if two world are equivalent.
 2. Like there are logarithm that change the relation between addition and multiplication to multiplication and power.
 So does the two world are equivalent.We use the log function to cast from one world to other and vice-versa.But log do return real number,how does that work ?Well addition,multiplication,power are all part of real number and addition,multiplication and multiplication,power are subworld of that world which are equivalent.Which is why they can be refer to one object.If two world are  equivalent,you can convert object to other and vice-versa.
-3. There is also other thing,like subworld or superworld.Now how to define if world_A is a subworld of world_B,like they have less relation or properties to follow,or they have less object or both.Like in vector space a subspace has all the same relation with the object as before but doesn't have same object.
-4. 
-
+![category_image](./images/category.png)
+Bacause those two world are equivalance,They can be mapped by one-to-one function.
+3. A world can have subworld. Now there is a problem on how to define a subworld. 
 
 
 1. $a(mod x)={a+nx: x in N}=a+0(mod x)$ **TODO:What are the special properties 0(mod x) and 1(mod x) have compared to  a(mod x)
