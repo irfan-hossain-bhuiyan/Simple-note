@@ -49,7 +49,7 @@ It could be {..-2,2,5...}.In real numberline it could be a lot more.
 ## Things we learned:
 1. How to check if two wrold are equivalent.
 2. Like there are logarithm that change the relation between addition and multiplication to multiplication and power.
-So does the two world are equivalent.We use the log function to cast from one world to other and vice-versa.
+So does the two world are equivalent.We use the log function to cast from one world to other and vice-versa.But log do return real number,how does that work ?Well addition,multiplication,power are all part of real number and addition,multiplication and multiplication,power are subworld of that world which are equivalent.Which is why they can be refer to one object.If two world are  equivalent,you can convert object to other and vice-versa.
 3. There is also other thing,like subworld or superworld.Now how to define if world_A is a subworld of world_B,like they have less relation or properties to follow,or they have less object or both.Like in vector space a subspace has all the same relation with the object as before but doesn't have same object.
 4. 
 
