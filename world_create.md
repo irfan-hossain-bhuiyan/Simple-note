@@ -61,7 +61,7 @@ So does the two world are equivalent.We use the log function to cast from one wo
 **TODO: There are some issue in the log and $e^x$ like even if addition and multiplication maps the dom in natural number the logarithm send it to irrational number.So after changing from one world to other world you might need to expand the number system.**
 
 **TODO:**
-1. Make a function and number system that converts thing like max,min,gcd to addition,take the image under it as reference.
+1. Make a function and number system that converts thing like max,min,gcd,modulo max,min,gcd to addition,take the image under it as reference.
 ![log_image](./images/log_exp.png)
 Bacause those two world are equivalance,They can be mapped by one-to-one function.
 3. A world can have subworld. Now there is a problem on how to define a subworld. 

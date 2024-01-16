@@ -9,3 +9,4 @@ The rules vector need to follow are
 6. 1.v=v
 7. a(v+w)=av+aw
 8. (a+b)v=av+bv
+
