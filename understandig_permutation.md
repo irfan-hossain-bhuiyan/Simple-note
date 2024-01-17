@@ -4,4 +4,7 @@
 2. Relation between tree and catlan number.
 
 Catlan number is used for all permutation of brackets,I can calculate recursively using,  
-C(n,e)=
+$C_a(n,r)=1 if a=n else C(n+1,r)+ C(n,r+1) if n>r else 0$
+$C_n=C_n(0,0)$
+#### else
+$C(n,r)=1 if C(0,r) else C(n-1,r+1)+C(n,r-1)if 0<r else 0$
