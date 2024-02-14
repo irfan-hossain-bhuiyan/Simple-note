@@ -1,5 +1,9 @@
 #Here are all the todo I want to do
 
+1.Go to RApl group,and check the all previos competition,try to solve thrm.
+
+
+
 1.Understand fourier transform in depth.
 2.3b1b understand fast fourier transfrom,convoultion,normal distrubition
 3.Solve the problem of coin problem in efficient method(shortest possible way to give money)
