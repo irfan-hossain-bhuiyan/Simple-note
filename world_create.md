@@ -40,7 +40,7 @@ First thing what is world?A world is a set of objects which have different relat
 >A question is "Is there a element in our universe that don't interect with our current elements of standard model?"
 >There could be.
 >If there is,would that be included in our world set.The answer should be "No."It should be because maybe that particle don't have any interaction with our world.But that particle might got affected by our presence.Like that particle might change it's state if a positive charge get close to it.But the positive charge,that remains unaffected.
->Maybe there is a bigger world than our own world. Those extra particle don't have any effect own us,but our existance do effect them in lot of ways.So,Will the bigger world will make us part of that world or not?We do effect them but they don't effect us in any way.I think we should.Though in our world,there isn't any smaller world as we know it.
+>Maybe there is a bigger world than our own world. Those extra particle don't have any effect own us,but our existance do effect them in lot of ways.So,Will the bigger world will make us part of that world or not?We do effect them but they don't effect us in any way.I think we should.Though in our world,there isn't any smaller world as we know it.(Dark matter might be one of them.)
 
 **Let's name the **
 
