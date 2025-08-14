@@ -33,3 +33,10 @@ function to predict a value.
 2. We have dream,So there are some simulating process there?I think ai need that too.
 3. Transformer model is some what like a specialized model?like In simplified mdeol each layer is a 
     function ,that got passed to another function,But in transformer where the output  should be passed is decided by key and query vector
+
+### Partial Linear FUnction
+1. Understanding nonlinear function,how it behaves with linear function,is needed.
+I have made a mathematical object that <m0,m1> which is equivalent to f(x)=m0x if x<0,else m1x,
+Now this mathematical object is associative like (<m0,m1>.<m2,m3>).<m4,m5>=<m0,m1>.(<m2,m3>.<m4,m5>),
+I need to test how this math operation evolve in high dimension?Interect with matrix
+I know the function don't work good with addition,Can I just make the addition operation a part of higher matrix multiplication.
