@@ -22,7 +22,8 @@ more down hill than uphill in infinite,In my guess,that type of value should be 
 1. When training a neural network in agi,I can't just train like doing a cost 
 function to predict a value.
 2. What can I do is doing random thing and predicting what will happen in ai?
-3. How do I train an ai,So It understand game by itself?
+3. How do I train an ai,So It understand game by itself?other than giving it hints the small step it need to take.
+
 
 ### some test to generalize ai
 1. I can make ai to train xor,As the training will be simple,
@@ -39,4 +40,24 @@ function to predict a value.
 I have made a mathematical object that <m0,m1> which is equivalent to f(x)=m0x if x<0,else m1x,
 Now this mathematical object is associative like (<m0,m1>.<m2,m3>).<m4,m5>=<m0,m1>.(<m2,m3>.<m4,m5>),
 I need to test how this math operation evolve in high dimension?Interect with matrix
-I know the function don't work good with addition,Can I just make the addition operation a part of higher matrix multiplication.
+I know the function don't work good with addition,like <m0,m1>(a+b),
+it won't distribute like <m0,m1>a+<m0,m1>b,is there a way to split it ,Can I just make the addition operation a part of higher matrix multiplication.
+
+### Generating data for classification neural network
+1. My brain can easily detect if a english word is valid,
+but when I try to write those words,my brain get confused,
+on that scenerio,I try to generate a word,most likely not the valid words,
+try to tweak the word in some way to find the valid word.
+2. We can do it to neural network as well,like in mnist data recognition neural network,
+in input we can take a random sample,then use packpropagation,and say the cost function is having the value being 2,which it is not as the input is randomized,So when backpropagation,we won't update the weight,we will update the input value,update in a way to minimize the cost function,to generate image,there is a high chance the image we will get is just noise,
+with a high probability of it being 2 in the network.So we need to train the network to reduce 
+training this garbage value.
+One way to do is having extra classification neural network,that is trained to detect garbage value,
+So we will also train the neural network inputting the garbage value(random varaible) and detecting it as garbage value
+A way to do it is several neural network with different initialized weight,So they train differently,
+one will think it is real,other will detect it as garbage,
+
+But there is a lot of neural network,to train,A easy way is to just train several neural network,that 
+detects garbage value versus the non garbage one.
+
+
